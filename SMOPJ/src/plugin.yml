@@ -1,0 +1,23 @@
+name: SMOPJ
+main: me.dexel.smopj.SMOPJ
+version: 1.0
+author: Dexel
+website: "https://vk.com/siriusosirius"
+prefix: SMOPJ
+
+commands:
+  zaebal:
+    aliases:
+      [pizdec, blyat]
+  ya-admin:
+    permission: smopj.admin
+    permission-message: §cПиздишь как дышишь.
+  dai-almazov:
+    aliases:
+      [da, almazi, diamonds, give-diamonds]
+  troll:
+    permission: smopj.troll
+
+permissions:
+  smopj.admin:
+    default: op
